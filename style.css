@@ -120,4 +120,16 @@ ul.topnav li.icon {display: none;}
   }
 } 
 
+.rodboks{
+	width: 100%;
+	float:left;
+	height: 30em;
+	background-color: #DFD27C;
+	transition: width 2s;
+}
+
+	
+
+
+
   
