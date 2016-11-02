@@ -5,9 +5,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" href="#">
-		<script src="script.js"></script>
+		
+		<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 	</head>
 	<body>
+	
 <div id="header">
   <a class="logo" href="index.html"><img src="logo.jpg" width="175em" alt="Michigan State" /></a>
   
@@ -23,20 +34,17 @@
 </ul>
 
 
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
 
 </div>
 
-<div class="rodboks"></div>
+<div class="rodboks">
+<ul class="endreord">
+	<li class="ord1"> <h1> hei </h1> </li>
+	<li class="ord2"> <h1> mertekst </h1> </li>
+	<li class="ord3"> <h1> tekst </h1> </li>
+	<li class="ord4"> <h1> etord </h1> </li>
+	<li class="ord5"> <h1> ord </h1> </li>
+</div>
 
 		
 		<footer></footer>
