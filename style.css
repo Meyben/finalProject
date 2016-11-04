@@ -4,27 +4,32 @@ body{
 }
 #sidemenu{
 	position: fixed;
-	width: 23%;
+	width: 33%;
 	height: 100%;
 	background-color: #44474c;
 	
 }
 
-#tekstmenu{
+.hover {
+    color: white;
+    text-decoration: none;
+    margin: 2em 0em 1em 2em;
+}
+
+.tekstmenu{
 	color: white;
 	text-decoration: none;
 	list-style-type: none;
 	margin-top: 5em;
 }
 #logo{
-	margin-top: 6em;
-	margin-left: 4em;
+	margin: 6em 0em 5em 4em;
 }
 
 .tekst{
-	margin-top: 2em;
-	margin-left: 2em;
-	
+	color: #00cccc;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
 }
 #bilde img{
 	width: 100%;
@@ -32,7 +37,7 @@ body{
 }
 
 #hovedside{
-	margin-left: 23%;	
+	margin-left: 33%;	
 }
 
 .apning{
@@ -53,4 +58,16 @@ body{
 	width: 100%;
 	height: 45em;
 	background-color: #eaeaea;
+}
+.hover ul.tekstmenu {
+    display: none;
+}
+
+.hover:hover ul.tekstmenu {
+    display: block;
+    z-index: 100;
+    margin: 0 2em 0 5em;
+    padding: 0 2em 0 2em;
+    background-color: #303236;
+    border-radius: 5px;
 }
