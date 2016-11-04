@@ -32,9 +32,12 @@ body{
 }
 
 #hovedside{
-	margin-left: 23%;
-	
-	
+	margin-left: 23%;	
+}
+
+.apning{
+	width: 100%;
+	height: 30em;
 }
 #underbilde{
 	position:fixed;
@@ -46,7 +49,8 @@ body{
 	width: 100%;
 }
 
-#boks2{
+#boks1{
 	width: 100%;
 	height: 45em;
+	background-color: #eaeaea;
 }
