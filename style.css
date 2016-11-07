@@ -4,7 +4,7 @@ body{
 }
 #sidemenu{
 	position: fixed;
-	width: 33%;
+	width: 25%;
 	height: 100%;
 	background-color: #44474c;
 	
@@ -28,8 +28,8 @@ body{
 
 .tekst{
 	color: #00cccc;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 #bilde img{
 	width: 100%;
@@ -37,7 +37,7 @@ body{
 }
 
 #hovedside{
-	margin-left: 33%;	
+	margin-left: 25%;	
 }
 
 .apning{
@@ -61,6 +61,7 @@ body{
 }
 .hover ul.tekstmenu {
     display: none;
+	margin-left: 2em;
 }
 
 .hover:hover ul.tekstmenu {
