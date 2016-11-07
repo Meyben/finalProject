@@ -78,7 +78,7 @@ body{
 }
 
 #indrestorboks{
-	background-color: white;
+	box-shadow: 0px 2px 0px #888888;
 	margin-top: 6em;
 	padding-top: 1px;
 	margin-left: 10%;
@@ -87,7 +87,7 @@ body{
 	height: 23em;
 }
 .indrelitenboks{
-	background-color: white;
+	box-shadow: 0px 2px 0px #888888;
 	width: 20%;
 	height: 15em;
 	float: left;
