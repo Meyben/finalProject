@@ -85,6 +85,18 @@ body{
     border-radius: 5px;
     font-weight: normal;
 }
+#mobil1{
+	width: 20%;
+	margin-top: 3%;
+	margin-left: 2%;
+	float: left;
+}
+#tekstmobil1{
+	width: 50%;
+	margin-top: 3%;
+	margin-left: 2%;
+	
+}
 
 li a {
     color: #00cccc;
