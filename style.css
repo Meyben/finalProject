@@ -344,3 +344,61 @@ h4{
 	margin:0;
 	font-size: 2.5em;
 }
+.bakgrunn {
+    position: relative;
+}
+.bakgrunn img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.overskrift {
+    position: absolute;
+    left: 10vh;
+    top: 10vh;
+    width: 100%;
+}
+.overskrift span {
+    color: white;
+    font: 50px/50px Helvetica, sans-serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 9px;
+}
+.innhold {
+    position: absolute;
+    left: 10vh;
+    top: 30vh;
+    width: 100%;
+    
+}
+.innhold span {
+    color: white;
+    font: 22px/45px Helvetica, sans-serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 9px;
+}
+.home {
+    background-color: #00cccc;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    right: 1vw;
+    top: 3vh;
+    text-decoration: none;
+    color: black;
+}
+.home:visited {
+    text-decoration: none;
+}
+.home:hover {
+    text-decoration: none;
+    color: #008080;
+}
+.home img{
+    height: 4vh;
+    width: 2vw;
+}
