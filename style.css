@@ -354,32 +354,28 @@ h4{
 }
 .overskrift {
     position: absolute;
-    left: 10vh;
+    left: 10vw;
     top: 10vh;
-    width: 100%;
-}
-.overskrift span {
-    color: white;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.6);
     font: 50px/50px Helvetica, sans-serif;
-    letter-spacing: -1px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 9px;
+    border-radius: 5px;
+    box-shadow: -5px -5px 20px #666699;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10vh;
 }
 .innhold {
+    margin-top: 15vh;
     position: absolute;
-    left: 10vh;
+    left: 10vw;
     top: 30vh;
-    width: 100%;
-    
-}
-.innhold span {
-    color: white;
-    font: 22px/45px Helvetica, sans-serif;
-    letter-spacing: -1px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    padding: 9px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.6);
+    font: 22px Helvetsica, sans-serif;
+    border-radius: 5px;
+    box-shadow: -5px -5px 20px #666699;
+    padding: 10px 10px 10px 10px;
 }
 .home {
     background-color: #00cccc;
