@@ -40,32 +40,7 @@ body{
 #hovedside{
 	margin-left: 26%;	
 }
-@media(max-width: 550px){
-	#sidemenu{
-		display:none;
-	}
-	#hovedside{
-		margin-left: 0;
-	}
-	#underbilde{
-		margin-left: 0;
-		width: 100%;
-	}
-	.animated-words{
-		background-color: #152f59;
-		background-image: url("logo.png");
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 40% 60%;
-	}
-	
-	.animated-words h2{
-		display:none;
-		padding: 0;
-	}
-	
 
-}
 
 
 
@@ -433,4 +408,32 @@ h4{
 .home img{
     height: 4vh;
     width: 2vw;
+}
+@media(max-width: 550px){
+	#sidemenu{
+		display:none;
+	}
+	#hovedside{
+		margin-left: 0;
+	}
+	#underbilde{
+		margin-left: 0;
+		width: 100%;
+	}
+	.animated-words{
+		background-color: #152f59;
+		background-image: url("logo.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 40% 60%;
+	}
+	#nyboks{
+		background-image: none;
+	}
+	.animated-words h2{
+		display:none;
+		padding: 0;
+	}
+	
+
 }
