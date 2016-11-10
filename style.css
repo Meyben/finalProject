@@ -331,8 +331,10 @@ li a:hover{
 }
 #nyboks img{
 	position: absolute;
-	width: 100%;
-	top: 70%;
+	width: 80%;
+	height: 30em;
+	top: 110%;
+	left: 26%;
 	
 }
 input{
