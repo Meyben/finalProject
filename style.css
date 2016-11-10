@@ -45,11 +45,7 @@ body{
 
 
 
-@media(min-width:620px){
-	.animated-words{
-		padding:0 3.5em
-		}
-		}
+
 	
 	.animated-words{
 		height: 34vw;
@@ -388,6 +384,9 @@ h4{
     box-shadow: -5px -5px 20px #666699;
     padding: 10px 10px 10px 10px;
 }
+#annenmenyknapp{
+	display:none;
+}
 .home {
     background-color: #00cccc;
     border-radius: 20px;
@@ -427,13 +426,24 @@ h4{
 		background-position: center;
 		background-size: 40% 60%;
 	}
-	#nyboks{
-		background-image: none;
-	}
 	.animated-words h2{
 		display:none;
 		padding: 0;
 	}
-	
 
 }
+
+@media(min-width:620px){
+	.animated-words{
+		padding:0 3.5em
+		}
+	}
+@media(max-width: 850px){
+#nyboks{
+	background-image: none;	
+	margin-left: 1em;
+}
+#annenmenyknapp{
+	display: default;
+}
+		}
