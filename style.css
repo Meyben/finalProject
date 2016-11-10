@@ -53,23 +53,21 @@ body{
 	}
 	.animated-words{
 		background-color: #152f59;
-	}
-	#anotherlogo{
-		display: default;
+		background-image: url("logo.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 40% 60%;
 	}
 	
 	.animated-words h2{
 		display:none;
 		padding: 0;
 	}
-	#nyboks{
-		background-image: none;
-	}
+	
+
 }
 
-#anotherlogo{
-	display:none;
-}
+
 
 
 @media(min-width:620px){
