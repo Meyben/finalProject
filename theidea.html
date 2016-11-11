@@ -13,11 +13,21 @@ and open the template in the editor.
     </head>
     <body>
         <div class="bakgrunn"><img src="underbilde.jpg" alt=""/>
-            <a class="home" href="index.html"><img src="home.png" alt="Home"/></a>
+            <div class="menu">
+                <div id="knapp"><button onclick="dropThat()" class="button"></button></div>
+                    <div id="droppern" class="meny">
+                        <a href="index.html">Home</a>
+                        <a href="receipts.html">Receipts</a>
+                        <a>The Idea</a>
+                        <a href="about.html">The app</a>
+                        <a href="how.html">How it works</a>
+                    </div>
+            </div>
             <h1 class="overskrift">The idea:</h1>
             <p class="innhold">We want to give you an opportunity to digitalize all your receipts, directly on your smartphone.<br> 
                     Our app will connect to your mobile pay app of choice. <br>
                     When you make a purchase in the app your items will be registered with info sourced from our database.</p>
         </div>
+        <script src="dropit.js"></script>
     </body>
 </html>

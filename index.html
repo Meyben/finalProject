@@ -15,15 +15,15 @@
 	<div id="logo"><img src="logo.png"  width="50%" alt="Logo"/> </div>
 	
 	
-        <div class="hover"><button>What?</button>
+        <div class="hover"><button class="btn">What?</button>
 	<ul class="tekstmenu">
             <li class="tekst"> <a href="receipts.html">Receipts</a> </li>
             <li class="tekst"> <a href="theidea.html">Our idea</a> </li>
 	</ul>
         </div>
-        <div class="hover"><button>The app</button>
+        <div class="hover"><button class="btn">The app</button>
             <ul class="tekstmenu">
-                <li class="tekst"> <a href="about.html">About</a> </li>
+                <li class="tekst"> <a href="about.html">The app</a> </li>
                 <li class="tekst"> <a href="how.html">How it works</a> </li>
             </ul>
 	</div>
@@ -66,13 +66,14 @@
 	<br>
 	<p> Got issues or questions, please send us an email!</p>
 	<br>
-	<form action="mailto:ida@honningbier.no" method="post" enctype="text/plain">
+	<form action="mailto:ida@honningbier.no" method="post" enctype="text/plain" id="contact">
 	Name:<br>
 	<input type="text" name="name"><br><br>
 	E-mail:<br>
 	<input type="text" name="mail"><br><br>
 	Comment:<br>
-	<input id="type" type="text" name="comment" rows="5" cols="25"><br><br>
+        <textarea cols="25" rows="5" name="comment" form="contact"></textarea>
+	<br><br>
 	<input type="submit" value="Send">
 	</form>
 </div>
