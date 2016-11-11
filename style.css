@@ -41,12 +41,13 @@ body{
 	margin-left: 26%;	
 }
 
-
-
-
-
-
-	
+button{
+	border: none;
+	background-color: inherit;
+	font-size: 20px;
+	outline: 0;
+	color:white;
+}	
 	.animated-words{
 		height: 34vw;
 	}
