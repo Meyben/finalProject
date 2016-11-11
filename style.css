@@ -443,6 +443,7 @@ outline: none;
     background-color: transparent;
     background-size: 100%;
     background-repeat: no-repeat;
+    border: none;
     width: 5vw;;
     height: 5vw;
     cursor: pointer;
