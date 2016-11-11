@@ -11,6 +11,31 @@
 	
 	<body>
 	
+	
+<div id="sider" class="sidemeny">
+  <a href="javascript:void(0)" class="lukk" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<span id="knapp" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+    document.getElementById("sider").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sider").style.width = "0";
+}
+</script>
+
+	
+	
+
+	
 	<div id="sidemenu"> 
 	<div id="logo"><img src="logo.png"  width="50%" alt="Logo"/> </div>
 	

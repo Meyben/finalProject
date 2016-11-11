@@ -424,7 +424,7 @@ h4{
 		background-image: url("logo.png");
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 40% 60%;
+		background-size: 40% 70%;
 	}
 	.animated-words h2{
 		display:none;
@@ -447,3 +447,70 @@ h4{
 	display: default;
 }
 		}
+	.sidemeny {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #44474c;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	display: none;
+}
+
+.sidemeny a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+	display: none;
+}
+
+.sidemeny a:hover, .offcanvas a:focus{
+    color: grey;
+	display: none;
+}
+
+.sidemeny .lukk {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+	display: none
+}
+#knapp{
+	display:none;
+	position: absolute;
+	color: white;
+	left: 1%;
+	top: 1%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidemeny {padding-top: 15px;}
+  .sidemeny a {font-size: 18px;}
+}
+@media (max-width: 850px){
+	.sidemeny{
+		display: block; 
+	}
+	.sidemeny a{
+		display: block;
+	}
+	.sidemeny a:hover, .offcanvas a:focus{
+		display: block;
+	}
+	.sidemeny .lukk{
+		display: block;
+	}
+	#knapp{
+		display: block;
+	}
+	
+}
