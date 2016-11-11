@@ -134,13 +134,44 @@ ul.topnav li.icon {display: none;}
 	height: auto;
 	text-align: center;
 	margin-left: 30%;
-	margin-top: 4vw;
+	margin-top: 6vw;
 	
 }
+#tekst2 {
+	color: white; 
+	font-size: 25px;
+	width: 40%;
+	height: auto;
+	margin-left: 3%;
+	text-align: center;
+	float: left;
+	margin-bottom: 6vw;
+	
+}
+#linje{
+	background-color:white;
+	height: 15vw;
+	width: 1px;
+	margin-left: 7vw;
+	float: left;
+}
+#tekst3 {
+	color: white; 
+	font-size: 25px;
+	width: 40%;
+	height: auto;
+	margin-right: 3%;
+	text-align: center;
+	float: right;
+	margin-bottom: 6vw;
+	
+}
+
 .bilderøverst{
 	margin-top: 12vw;
 	float: left;
 	width: 50%;
+	margin-bottom: 6vw;
 }
 .bildernederst{
 	float: left; 
