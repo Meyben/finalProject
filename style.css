@@ -515,6 +515,12 @@ textarea {
 border: none;
 outline: none;
 }
+footer {
+    background-color: black;
+    height: 10vw;    
+}
+
+}
 
 /*til hit! */
 =======
