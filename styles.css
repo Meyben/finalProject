@@ -185,4 +185,39 @@ ul.topnav li.icon {display: none;}
 	width: 50vw;
 	height: 30vw;
 }
+@media all and (max-width:80em){
+
+.bilderøverst{
+	width: 100%;
+	height: 100%;
+}
+.bildernederst{
+	width: 100%;
+	height: 100%;
+}
+.bildernederst img{
+	width: 100%;
+	height: 100%;
+}
+.bilderøverst img{
+	width: 100%;
+	height: 100%;
+}
+#linje{
+	display: none;
+}
+#tekst{
+	width: 100%;
+	margin:0;
+}
+#tekst2{
+	width: 100%;
+	margin: 0;
+}
+#tekst3{
+	width: 100%;
+	margin: 0;
+}
+
+.bildeøverst {flex:0 1 calc(50% - 1em);}}
   
