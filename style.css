@@ -426,6 +426,7 @@ h4{
 	display: default;
 }
 		}
+		/* ikke rør dette heller! uansett hvor jævlig det ser ut! */
 .sidemeny {
     height: 100%;
     width: 0;
@@ -491,6 +492,8 @@ h4{
 	}
 	
 }
+
+/*til hit! */
 =======
 textarea {
 border: none;
