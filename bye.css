@@ -139,6 +139,7 @@ ul.topnav li.icon {display: none;}
 #hovedside img{
 	float: left;
     width: 37.75vw;
+	height: 100%;
 }
 #tekstvedsidenav{
 	float: right; 
@@ -146,4 +147,15 @@ ul.topnav li.icon {display: none;}
 	margin-top: 6vw;
 	color: white;
 	margin-right: 15%;
+}
+@media all and (max-width:53em){
+	#tekstvedsidenav{
+		width: 70%;
+	}
+	#hovedside img{
+		width: 100%;
+	}
+	#hovedside{
+		width: 100%;
+		}
 }
