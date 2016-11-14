@@ -426,7 +426,7 @@ h4{
 	display: default;
 }
 		}
-	.sidemeny {
+.sidemeny {
     height: 100%;
     width: 0;
     position: fixed;
@@ -453,9 +453,7 @@ h4{
 .sidemeny a:hover, .offcanvas a:focus{
     color: grey;
 	display: none;
-}
-
-.sidemeny .lukk {
+}.sidemeny .lukk {
     position: absolute;
     top: 0;
     right: 25px;
