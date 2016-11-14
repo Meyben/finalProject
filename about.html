@@ -13,12 +13,22 @@ and open the template in the editor.
     </head>
     <body>
         <div class="bakgrunn"><img src="underbilde.jpg" alt=""/>
-            <a class="home" href="index.html"><img src="home.png" alt="Home"/></a>
+            <div class="menu">
+                <div id="knapp"><button onclick="dropThat()" class="button"></button></div>
+                    <div id="droppern" class="meny">
+                        <a href="index.html">Home</a>
+                        <a href="receipts.html">Receipts</a>
+                        <a href="theidea.html">The Idea</a>
+                        <a id="her">The app</a>
+                        <a href="how.html">How it works</a>
+                    </div>
+            </div>
             <h1 class="overskrift">The app:</h1>
             <p class="innhold">Not only is it easy to look up the receipt when you need to.<br>
                     You will find all the user manuals and other relevant info when you click the product.<br>
                     You can now organize everything you need to know about your stuff, at the same time as you are saving the environment.
         </p>
         </div>
+        <script src="dropit.js"></script>
     </body>
 </html>

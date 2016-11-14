@@ -13,7 +13,16 @@ and open the template in the editor.
     </head>
     <body>
         <div class="bakgrunn"><img src="underbilde.jpg" alt=""/>
-            <a class="home" href="index.html"><img src="home.png" alt="Home"/></a>
+            <div class="menu">
+                <div id="knapp"><button onclick="dropThat()" class="button"></button></div>
+                    <div id="droppern" class="meny">
+                        <a href="index.html">Home</a>
+                        <a id="her">Receipts</a>
+                        <a href="theidea.html">The Idea</a>
+                        <a href="about.html">The app</a>
+                        <a href="how.html">How it works</a>
+                    </div>
+            </div>
             <h1 class="overskrift">Receipts today:</h1>
             <p class="innhold">With todays commercial model every time you buy a product you will get a receipt written on paper.<br> 
                     Not only is it hard to keep track of the small pieces of paper, but it also has a huge environmental effect. <br>
@@ -21,5 +30,6 @@ and open the template in the editor.
                     Of course you could just say no thank you to the receipt, but at the same time you will resign all your warranty rights. <br>
            <br>Surely, there must be a better way?</p>
         </div>
+        <script src="dropit.js"></script>
     </body>
 </html>
