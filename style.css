@@ -220,6 +220,7 @@ animation-delay:12s;
 	background-color: #eaeaea;
 	overflow:auto;
 }
+
 .hover ul.tekstmenu {
     display: none;
     margin-left: 2em;
@@ -258,6 +259,7 @@ animation-delay:12s;
     border-radius: 5px;
     font-weight: normal;
 }
+
 
 #tekstmobil1{
 	width: 70%;
@@ -404,7 +406,7 @@ h4{
 	display:none;
 }
 
-@media(max-width: 550px){
+@media(max-width: 1024px){
 	#sidemenu{
 		display:none;
 	}
