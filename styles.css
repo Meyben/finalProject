@@ -207,16 +207,19 @@ ul.topnav li.icon {display: none;}
 	display: none;
 }
 #tekst{
-	width: 100%;
+	width: 80%;
 	margin:0;
+	margin-left: 10%;
 }
 #tekst2{
-	width: 100%;
+	width: 80%;
 	margin: 0;
+	margin-left: 10%;
 }
 #tekst3{
-	width: 100%;
+	width: 80%;
 	margin: 0;
+	margin-right: 10%;
 }
 
 .bildeøverst {flex:0 1 calc(50% - 1em);}}
