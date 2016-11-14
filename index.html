@@ -14,21 +14,13 @@
 	<!-- ikke kødd med dette!, det skal være sånn -->
 <div id="sider" class="sidemeny">
   <a href="javascript:void(0)" class="lukk" onclick="closeNav()">&times;</a>
-  <a href="heyo.html">Problem</a>
+  <a href="theidea.html">Problem</a>
   <a href="Something.html">About</a>
 </div>
 
 <span id="knapp" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
-<script>
-function openNav() {
-    document.getElementById("sider").style.width = "250px";
-}
 
-function closeNav() {
-    document.getElementById("sider").style.width = "0";
-}
-</script>
 
 	<!--til hit -->
 	
@@ -41,7 +33,7 @@ function closeNav() {
 	
         <div class="hover" tabindex="1"><button class="btn">Our idea</button>
 	<ul class="tekstmenu">
-            <li class="tekst"> <a href="heyo.html" tabindex="2">Problem</a> </li>
+            <li class="tekst"> <a href="theidea.html" tabindex="2">Problem</a> </li>
 	</ul>
         </div>
         <div class="hover" tabindex="3"><button class="btn">About</button>
@@ -108,6 +100,14 @@ function closeNav() {
 	
 	</div>
 	
-	
+	<script>
+function openNav() {
+    document.getElementById("sider").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sider").style.width = "0";
+}
+</script>
 	</body>
 	</html>

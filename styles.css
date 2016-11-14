@@ -95,23 +95,21 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: #555;}
 
-ul.topnav li.icon {display: none;}
+.icon {display: none;}
 
 @media screen and (max-width:600px) {
   ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon {
+  .icon {
     float: right;
     display: inline-block;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 14px 16px;
   }
 }
 
 @media screen and (max-width:600px) {
   ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-	}
 #header ul li {
   float: none;
   width: default;
@@ -130,40 +128,50 @@ ul.topnav li.icon {display: none;}
 #tekst {
 	color: white; 
 	font-size: 25px;
-	width: 40%;
+	width: 80%;
 	height: auto;
 	text-align: center;
-	margin-left: 30%;
+	margin-left: 10%;
 	margin-top: 6vw;
-	
+        padding: 10px 25px 10px 25px;
+	background-color: #93989f;
+        box-shadow: 5px 5px 20px #0c0d0e;
 }
 #tekst2 {
 	color: white; 
 	font-size: 25px;
-	width: 40%;
+	width: 35%;
 	height: auto;
 	margin-left: 3%;
 	text-align: center;
 	float: left;
-	margin-bottom: 6vw;
-	
+        margin-top: 5vh;
+	margin-bottom: 3.6vw;
+        padding: 10px 20px 10px 20px;
+	background-color: #93989f;
+        box-shadow: 5px 5px 20px #0c0d0e;
 }
 #linje{
 	background-color:white;
-	height: 15vw;
+	height: 30vw;
 	width: 1px;
+        margin-top: 0vh;
 	margin-left: 7vw;
 	float: left;
 }
 #tekst3 {
 	color: white; 
 	font-size: 25px;
-	width: 40%;
-	height: auto;
-	margin-right: 3%;
+	width: 35%;
+	height: 55vh;
+	margin-right: %;
 	text-align: center;
 	float: right;
 	margin-bottom: 6vw;
+        margin-top: 5vh;
+        padding: 10px 20px 10px 20px;
+        background-color: #93989f;
+        box-shadow: 5px 5px 20px #0c0d0e;
 	
 }
 
@@ -174,15 +182,16 @@ ul.topnav li.icon {display: none;}
 	margin-bottom: 6vw;
 }
 .bildernederst{
-	float: left; 
-	width: 50%;
+	float: right; 
+	width: 40%;
+        margin-right: 3%;
 }
 .bilderøverst img{
 	width: 50vw;
 	height: 30vw;
 }
 .bildernederst img{
-	width: 50vw;
+	width: 40vw;
 	height: 30vw;
 }
 @media all and (max-width:60em){
@@ -223,4 +232,3 @@ ul.topnav li.icon {display: none;}
 }
 
 .bildeøverst {flex:0 1 calc(50% - 1em);}}
-  

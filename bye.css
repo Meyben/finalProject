@@ -95,23 +95,21 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: #555;}
 
-ul.topnav li.icon {display: none;}
+.icon {display: none;}
 
 @media screen and (max-width:600px) {
   ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon {
+  .icon {
     float: right;
     display: inline-block;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 14px 16px;
   }
 }
 
 @media screen and (max-width:600px) {
   ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-	}
 #header ul li {
   float: none;
   width: default;
