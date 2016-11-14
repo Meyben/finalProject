@@ -185,7 +185,7 @@ ul.topnav li.icon {display: none;}
 	width: 50vw;
 	height: 30vw;
 }
-@media all and (max-width:80em){
+@media all and (max-width:60em){
 
 .bilderøverst{
 	width: 100%;
