@@ -1,6 +1,6 @@
 	<!DOCTYPE html>
 	
-	<html>
+	<html lang="EN">
 	<head>
 	<meta charset="UTF-8"><!-- <3  Maπe^x  <3 -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,7 @@
 
 	
 	<div id="sidemenu"> 
-	<div id="logo"><img src="logo.png"  width="35%" alt="Logo"/> </div>
+	<div id="logo"><img src="logo.png"  alt="Logo"/> </div>
 	
 	
         <div class="hover" tabindex="1"><button class="btn">Our idea</button>
@@ -85,12 +85,12 @@
 	<p> Got issues or questions, please send us an email!</p>
 	<br>
 	<form action="mailto:ida@honningbier.no" method="post" enctype="text/plain" id="contact">
-	Name:<br>
-	<input type="text" name="name"><br><br>
-	E-mail:<br>
-	<input type="text" name="mail"><br><br>
-	Comment:<br>
-        <textarea cols="25" rows="5" name="comment" form="contact"></textarea>
+        <label for="name">Name:<br></label>
+	<input type="text" name="name" id="name"><br><br>
+        <label for="mail">E-mail:<br></label>
+	<input type="text" name="mail" id="mail"><br><br>
+        <label for="comment">Comment:<br></label>
+        <textarea cols="25" rows="5" name="comment" form="contact" id="comment"></textarea>
 	<br><br>
 	<input type="submit" value="Send">
 	</form>

@@ -30,6 +30,10 @@ body{
 	margin: 6vw 0vw 3vw 4vw;
 }
 
+#logo img {
+    width: 35%;
+}
+
 .tekst{
         padding-top: 0.5em;
         padding-bottom: 0.5em;
