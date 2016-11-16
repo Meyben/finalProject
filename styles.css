@@ -155,7 +155,7 @@ ul.topnav li a:hover {background-color: #555;}
 	text-align: center;
 	float: left;
         margin-top: 5vh;
-	margin-bottom: 3.6vw;
+	margin-bottom: 3vw;
         padding: 10px 20px 10px 20px;
 	
 }
@@ -175,7 +175,7 @@ ul.topnav li a:hover {background-color: #555;}
 	margin-right: 6%;
 	text-align: center;
 	float: right;
-	margin-bottom: 6vw;
+	margin-bottom: 3vw;
         margin-top: 5vh;
         padding: 10px 20px 10px 20px;
         
@@ -200,23 +200,27 @@ ul.topnav li a:hover {background-color: #555;}
         margin-right: 3%;
         margin-top: 5vh;
 }
+table {
+    width: 100%;
+}
 #bildernederst1 {
     float: left;
-    width: 50%;
-    margin-top: 5vh;
+    width: 49%;
+    vertical-align: bottom;
 }
 #bildernederst1 img {
-    margin-left: 13vw;
-    width: 18vw;
+    margin: auto;
+    width: 15vw;
     height: 30vw;
 }
 #bildernederst2 {
     float: right;
-    width: 50%;
+    width: 49%;
+    vertical-align: bottom;
 }
 #bildernederst2 img {
-    margin-left: 13vw;
-    width: 18vw;
+    margin: auto;
+    width: 15vw;
     height: 30vw;
 }
 .bilderoverst1 img{
@@ -282,18 +286,14 @@ ul.topnav li a:hover {background-color: #555;}
     #tekst3 {
         height: auto;
     }
-    #bildernederst2{
-        margin-top: 2.4vw;
-    }
+    
 }
 
 @media(max-width:1024px){
     #tekst3 {
         height: 38vw;
     }
-    #bildernederst2{
-        margin-top: 1.4vw;
-    }
+    
 }
 @media(max-width:568px){
     #header {
@@ -308,9 +308,7 @@ ul.topnav li a:hover {background-color: #555;}
         margin-top: 0;
         margin-bottom: 7%;
     }
-    #bildenederst1 {
-        margin-top: 30%;
-    }
+    
 }
 @media(max-width:360px) {
     #tekst3 {
@@ -321,9 +319,7 @@ ul.topnav li a:hover {background-color: #555;}
     #tekst3{
         height: auto;
     }
-    #bildenederst1 {
-        margin-top: 50em;
-    }
+   
 }
 .fet {
     font-weight: bold;
