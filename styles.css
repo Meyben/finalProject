@@ -3,6 +3,7 @@ body {
   font-size: 20px;
   margin: 0;
   background-color: #44474c;
+  overflow-x: hidden;
 }
 
 
@@ -10,7 +11,7 @@ body {
   background-color: #44474c;
   height: 60px;
   position: relative;
-  margin: 90px auto 0;
+  margin: 90px auto 0 10%;
 }
 #mobil1{
 	width: 50%;
@@ -31,7 +32,7 @@ body {
 
 
 #header ul li:nth-of-type(3) {
-  margin-left: 350px;
+  margin-left: 30vw;
 }
 
 #header ul li a {
@@ -55,8 +56,6 @@ body {
 }
 
 @media(max-width: 640px){
-    #tekst3 {
-    }
     #bildernederst1 {
         margin-top: 80vw;
     }
@@ -69,6 +68,9 @@ body {
 #header{
 	  margin: 150px 5%;
           padding-left: 7%;
+}
+#header ul li:nth-of-type(1){
+    margin-left: 5%;
 }
   #header ul li:nth-of-type(3) {
     margin-left: 0;
@@ -146,6 +148,18 @@ ul.topnav li a:hover {background-color: #555;}
         padding: 10px 25px 10px 25px;
 	
 }
+#tekst1 {
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto 3vw auto 3vw;
+}
+#tekst1 p{
+    width: 80%;
+    margin: auto;
+}
 #tekst2 {
 	color: white; 
 	font-size: 25px;
@@ -194,14 +208,23 @@ ul.topnav li a:hover {background-color: #555;}
 	width: 50%;
 	margin-bottom: 6vw;
 }
-.bildernederst{
-	float: right; 
-	width: 40%;
-        margin-right: 3%;
-        margin-top: 5vh;
+.bildernederst {
+        width: 45%;
 }
 table {
     width: 100%;
+}
+#line {
+    border: none;
+    border-collapse: collapse;
+    margin-bottom: 5%;
+}
+#line th {
+    border-left: 1px solid white;
+    width: 50%;
+}
+#line th:first-child {
+    border-left: none;
 }
 #bildernederst1 {
     float: left;
@@ -228,13 +251,12 @@ table {
 	height: 30vw;
 }
 .bilderoverst img{
-    margin-left: 13vw;
-    width: 18vw;
+    margin-left: 17vw;
+    width: 15vw;
     height: 30vw;
 }
 .bildernederst img{
-	width: 40vw;
-	height: 25vw;
+	width: 100%;
 }
 
 @media all and (max-width:768px){
@@ -244,18 +266,27 @@ table {
 	height: 100%;
 }
 
-.bildernederst, #bildernederst1, #bildernederst2{
+.bildernederst {
+    width: 100%;
+    margin: auto;
+}
+
+#bildernederst1, #bildernederst2{
 	width: 100%;
-	height: 100%;
+	margin: auto;
 }
 .bildernederst img{
 	width: 100%;
 	height: 100%;
 }
-.bilderoverst img, #bildernederst1 img, #bildernederst2 img{
+.bilderoverst img {
     width: 50%;
     height: 50%;
     margin-left: 25%;
+}
+#bildernederst1 img, #bildernederst2 img {
+    width: 50%;
+    height: 50%;
 }
 .bilderoverst1 img{
 	width: 100%;
@@ -291,7 +322,7 @@ table {
 
 @media(max-width:1024px){
     #tekst3 {
-        height: 38vw;
+        height: auto;
     }
     
 }
@@ -325,4 +356,11 @@ table {
     font-weight: bold;
     margin: 0;
     padding: 0;
+}
+footer {
+    height: 10vw;
+    background-color: #44474c;
+    border-top: 2px solid #00cccc;
+    color: white;
+    text-align: center;
 }
