@@ -1,0 +1,326 @@
+body {  
+  font-family: Calibri, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  background-color: #44474c;
+}
+
+
+#header {
+  background-color: #44474c;
+  height: 60px;
+  position: relative;
+  margin: 90px auto 0;
+}
+#mobil1{
+	width: 50%;
+	margin-top: 4vw;
+}
+
+#header ul {
+  margin: 0 auto;
+  width: 850px;
+  padding: 0;
+  list-style: none;
+}
+#erher{
+	background-color: grey;
+}
+
+#header ul li {
+  float: left;
+  width: 120px;
+}
+#footer{
+	width: 100%;
+	height: 10em;
+	background-color: grey;
+	margin-top: 2vw;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: #bcd6ff;
+}
+#find{
+	float: left;
+	margin-left: 20vw;
+}
+#find img{
+	height: 5vw;
+}
+#iss{
+	color: white;
+	float: left;
+	margin-left: 8vw;
+}
+#contact{
+	float: left;
+	margin-left: 10vw;
+}
+h2{
+	font-size: 1em;
+}
+
+#header ul li:nth-of-type(3) {
+  margin-left: 350px;
+}
+
+#header ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 12px 0 0 0;
+  height: 28px;
+  color: white;
+}
+
+#header ul li a:hover {
+  background: #636363;
+}
+
+.logo {
+  position: absolute;
+  left: 53.75%;
+  margin: -80px 0 0 -108px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .logo {
+      left: 60%;
+    bottom: 100%;
+  }
+#header{
+	  margin: 150px 5%;
+          padding-left: 7%;
+}
+  #header ul li:nth-of-type(3) {
+    margin-left: 0;
+  }
+  
+  #header ul {
+    width: auto;
+    position: relative;
+	
+  }
+}
+ 
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #44474c;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+.icon {display: none;}
+
+@media screen and (max-width:600px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  .icon {
+    float: right;
+    display: inline-block;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  ul.topnav.responsive {position: relative;}
+#header ul li {
+  float: none;
+  width: default;
+}
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    background-color:  #303236;
+    margin-left: 10%;
+  }
+} 
+#tekst {
+	color: white; 
+	font-size: 25px;
+	width: 40%;
+	height: auto;
+	text-align: center;
+	margin-left: 30%;
+	margin-top: 8vw;
+	
+}
+
+#tekst2 {
+	color: white; 
+	font-size: 25px;
+	width: 40%;
+	height: auto;
+	margin-left: 3%;
+	text-align: center;
+	float: left;
+	margin-bottom: 6vw;
+	
+}
+#linje3{
+	margin-top: 2vw;
+	background-color:white;
+	height: 8vw;
+	width: 1px;
+	margin-left: 5vw;
+	float: left;
+}
+#linje2{
+	margin-top: 2vw;
+	background-color:white;
+	height: 8vw;
+	width: 1px;
+	margin-left: 5vw;
+	float: left;
+}
+#linje{
+	background-color:white;
+	height: 15vw;
+	width: 1px;
+	margin-left: 7vw;
+	float: left;
+}
+#tekst3 {
+	color: white; 
+	font-size: 25px;
+	width: 40%;
+	height: auto;
+	margin-right: 3%;
+	text-align: center;
+	float: right;
+	margin-bottom: 6vw;
+	
+}
+.bilderøverst{
+	margin-top: 12vw;
+	float: left;
+	width: 50%;
+	margin-bottom: 5vw;
+}
+table{
+	width: 100%;
+	height: 30vw;
+}
+#bildernederst1{
+	float: right; 
+	width: 49.5%;
+	height: 30vw;	
+}
+#bildernederst2{
+	float: left; 
+	width: 49.5%;
+	height: 30vw;
+}
+.bilderøverst img{
+	width: 50vw;
+	height: 30vw;
+}
+#bildernederst1 img{
+	width: 50vw;
+	height: 100%;
+}
+#bildernederst2 img{
+	width: 50vw;
+	height: 100%;
+}
+
+
+@media all and (max-width:60em){
+#find{
+	margin-left: 10vw;
+}
+#iss{
+	margin-left: 8vw;
+}
+#contact{
+	margin-left: 10vw;
+}
+.bilderøverst{
+	width: 100%;
+	height: 100%;
+}
+
+#bildernederst1{
+	float: none; 
+	width: 100%;
+}#bildernederst2{
+	float: none; 
+	width: 100%;
+	
+}
+
+#bildernederst1 img{
+	width: 100%;
+}
+#bildernederst2 img{
+	width: 100%;
+}
+
+.bilderøverst img{
+	width: 100%;
+	height: 100%;
+}
+#linje{
+	display: none;
+}
+#tekst{
+	width: 80%;
+	margin:0;
+	margin-left: 10%;
+}
+#tekst2{
+	width: 80%;
+	margin: 0;
+	margin-left: 10%;
+	margin-top: 3vw;
+}
+#tekst3{
+	width: 80%;
+	margin: 0;
+	margin-right: 10%;
+	margin-top: 10%;
+}
+
+.bildeøverst {flex:0 1 calc(50% - 1em);}}
+
+@media(max-width: 700px){
+#find{
+	margin-left: 3vw;
+	font-size: 14px;
+}
+#iss{
+	margin-left: 4vw;
+	font-size: 13px;
+}
+#contact{
+	margin-left: 3vw;
+	font-size: 14px;
+}
+}
+
