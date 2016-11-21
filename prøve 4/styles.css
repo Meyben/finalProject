@@ -3,6 +3,7 @@ body {
   font-size: 20px;
   margin: 0;
   background-color: #44474c;
+  overflow-x: none;
 }
 
 
@@ -199,13 +200,6 @@ ul.topnav li a:hover {background-color: #555;}
 	margin-left: 5vw;
 	float: left;
 }
-#linje{
-	background-color:white;
-	height: 15vw;
-	width: 1px;
-	margin-left: 7vw;
-	float: left;
-}
 #tekst3 {
 	color: white; 
 	font-size: 25px;
@@ -215,6 +209,8 @@ ul.topnav li a:hover {background-color: #555;}
 	text-align: center;
 	float: right;
 	margin-bottom: 6vw;
+        border-left: 1px solid white;
+        padding-left: 7%;
 	
 }
 .bilderøverst{
@@ -226,27 +222,28 @@ ul.topnav li a:hover {background-color: #555;}
 table{
 	width: 100%;
 	height: 30vw;
+        border-collapse: collapse;
 }
 #bildernederst1{
-	float: right; 
-	width: 49.5%;
-	height: 30vw;	
+	width: 50%;
+	height: 30vw;
+        padding: 0;
 }
 #bildernederst2{
-	float: left; 
-	width: 49.5%;
+	width: 50%;
 	height: 30vw;
+        padding: 0;
 }
 .bilderøverst img{
-	width: 50vw;
+	width: 100%;
 	height: 30vw;
 }
 #bildernederst1 img{
-	width: 50vw;
+	width: 100%;
 	height: 100%;
 }
 #bildernederst2 img{
-	width: 50vw;
+	width: 100%;
 	height: 100%;
 }
 
@@ -286,9 +283,6 @@ table{
 	width: 100%;
 	height: 100%;
 }
-#linje{
-	display: none;
-}
 #tekst{
 	width: 80%;
 	margin:0;
@@ -305,6 +299,7 @@ table{
 	margin: 0;
 	margin-right: 10%;
 	margin-top: 10%;
+        border: none;
 }
 
 .bildeøverst {flex:0 1 calc(50% - 1em);}}
