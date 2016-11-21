@@ -1,6 +1,7 @@
 body{
 	margin: 0em;
 	font-family: sans-serif;
+        overflow-x: hidden;
 }
 #hovedside{
 	margin-left: 26%;	
@@ -190,6 +191,7 @@ li a:hover{
 
 #issues{
 	position: absolute;
+        width: 30vw;
 	padding: 2%;
 	right: 0;
 	top:0;
