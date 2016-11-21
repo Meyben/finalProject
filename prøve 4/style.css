@@ -116,7 +116,6 @@ li a:hover{
         padding-top: 0.5em;
         padding-bottom: 0.5em;
 }
-
 #indrelitenboks1{
 	width: 20%;
 	height: 13vw;
@@ -126,6 +125,10 @@ li a:hover{
 	padding-top: 3em;
 	background-color: #ddeaff;
 	text-align: center;
+	transition-duration: 0.5s;
+}
+#indrelitenboks1:hover{
+	background-color:  #b3d0ff; 
 }
 #indrelitenboks2{
 	width: 20%;
@@ -136,6 +139,10 @@ li a:hover{
 	padding-top: 3em;
 	background-color: #cbd8ed;
 	text-align: center;
+	transition-duration: 0.5s;
+}
+#indrelitenboks2:hover{
+	background-color: #b4c6e4;
 }
 #indrelitenboks3{
 	width: 20%;
@@ -146,6 +153,10 @@ li a:hover{
 	padding-top: 3em;
 	background-color: #d3e4ff;
 	text-align:center;
+	transition-duration: 0.5s;
+}
+#indrelitenboks3:hover{
+	background-color: #b3d1ff;
 }
 #indrelitenboks1 img{
 	margin-left: 5%;
