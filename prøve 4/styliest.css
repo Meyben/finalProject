@@ -3,7 +3,6 @@ body {
   font-size: 20px;
   margin: 0;
   background-color: #44474c;
-  overflow-x: hidden;
 }
 
 a{
@@ -142,17 +141,18 @@ ul.topnav li a:hover {background-color: #555;}
   }
 } 
 #tekst{
+	float: right;
 	color: white;
-	padding-left: 23%;
+	margin-right: 10vw;
 	margin-top: 4vw;
-        margin-bottom: 10vw;
 	text-align: center;
 	width: 37vw;
-        height: auto;
 }
 #tekst2{
+	float: left;
 	color: white;
 	margin-top: 4vw;
+	margin-left: 10vw;
 	margin-bottom: 2vw;
 	text-align: center;
 	width: 37vw;
@@ -309,12 +309,10 @@ h2{
 #tekst{
 	margin-right: 7vw;
 	margin-left: 1vw;
-        padding-left: 9%;
 	width: 80%;
 }
 #tekst2{
 	margin-left: 7vw;
-        padding-left: 2%;
 	width: 80%;
 }
 #boks1{
