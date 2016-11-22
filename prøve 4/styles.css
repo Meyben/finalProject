@@ -3,7 +3,7 @@ body {
   font-size: 20px;
   margin: 0;
   background-color: #44474c;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 
 
@@ -148,7 +148,6 @@ ul.topnav li a:hover {background-color: #555;}
   ul.topnav.responsive {position: relative;}
 #header ul li {
   float: none;
-  width: default;
 }
 
   ul.topnav.responsive li {
@@ -162,20 +161,23 @@ ul.topnav li a:hover {background-color: #555;}
     margin-left: 10%;
   }
 } 
+#boksen{
+    display: block;
+    text-align: center;
+}
 #tekst {
 	color: white; 
-	font-size: 25px;
 	width: 40%;
 	height: auto;
 	text-align: center;
-	margin-left: 30%;
+	display: inline-block;
 	margin-top: 8vw;
+        margin-bottom: 8vw;
 	
 }
 
 #tekst2 {
 	color: white; 
-	font-size: 25px;
 	width: 40%;
 	height: auto;
 	margin-left: 3%;
@@ -202,7 +204,6 @@ ul.topnav li a:hover {background-color: #555;}
 }
 #tekst3 {
 	color: white; 
-	font-size: 25px;
 	width: 40%;
 	height: auto;
 	margin-right: 3%;
@@ -213,16 +214,18 @@ ul.topnav li a:hover {background-color: #555;}
         padding-left: 7%;
 	
 }
-.bilderøverst{
-	margin-top: 12vw;
-	float: left;
+.bilderoverst{
 	width: 50%;
-	margin-bottom: 5vw;
+        height: 30vw;
+        padding: 0;
 }
 table{
 	width: 100%;
 	height: 30vw;
         border-collapse: collapse;
+}
+#opp{
+    margin-bottom: 8vw;
 }
 #bildernederst1{
 	width: 50%;
@@ -234,9 +237,9 @@ table{
 	height: 30vw;
         padding: 0;
 }
-.bilderøverst img{
+.bilderoverst img{
 	width: 100%;
-	height: 30vw;
+	height: 100%;
 }
 #bildernederst1 img{
 	width: 100%;
@@ -258,35 +261,30 @@ table{
 #contact{
 	margin-left: 10vw;
 }
-.bilderøverst{
-	width: 100%;
-	height: 100%;
+table tr th{
+    display: block;
+    width: 100%;
 }
-
-#bildernederst1{
-	float: none; 
-	width: 100%;
-}#bildernederst2{
-	float: none; 
-	width: 100%;
-	
+.bilderoverst, #bildernederst1, #bildernederst2 {
+    width: 100%;
+    height: 100%;
 }
-
+.bilderoverst img{
+	width: 100%;
+        height: 35%;
+}
 #bildernederst1 img{
-	width: 100%;
+    width: 100%;
+    height: 35%;
 }
 #bildernederst2 img{
-	width: 100%;
-}
-
-.bilderøverst img{
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 6.3%;
 }
 #tekst{
 	width: 80%;
-	margin:0;
-	margin-left: 10%;
+	margin-top: 10%;
+        display: inline-block;
 }
 #tekst2{
 	width: 80%;
@@ -301,8 +299,7 @@ table{
 	margin-top: 10%;
         border: none;
 }
-
-.bildeøverst {flex:0 1 calc(50% - 1em);}}
+}
 
 @media(max-width: 700px){
 #find{
@@ -318,4 +315,3 @@ table{
 	font-size: 14px;
 }
 }
-
