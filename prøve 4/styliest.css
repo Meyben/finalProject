@@ -316,10 +316,11 @@ h2{
 	height: 33em;
 }
 #boks2{
-	height: 30em;
+	height: auto;
 }
 #boks21{
-	height: 30em;
+	height: auto;
+        margin-top: -25%;
 }
 
 
