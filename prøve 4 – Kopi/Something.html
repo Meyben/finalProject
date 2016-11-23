@@ -22,7 +22,7 @@ function myFunction() {
 	
 <div id="header">
   <a class="logo" href="index.html"><img src="logo.png" width="100" alt="Logo" /></a>
-  <a class="icon" href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  <a class="icon" href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"><img src="whitemenu.png" alt="☰"/></a>
   <ul class="topnav" id="myTopnav">
 
     <li><a class="active" href="index.html">Home</a></li>
@@ -42,16 +42,13 @@ Not only is it easy to look up the receipt when you need to, but you will find a
 You can now organize everything you need to know about your stuff, at the same time as you are saving the environment. <br>
 </div>
 
-    <table id="opp">
-        <tr>
-            <th class="bilderoverst"><img src="bilder/sidebilde.png" alt="App"/> </th>
-            <th class="bilderoverst"><img src="bilder/prove.jpg" alt="App"/> </th>
-        </tr>
-    </table>
+
+<div class="bilderoverst"><img src="bilder/sidebilde.PNG" alt="App"/> </div>
+<div class="bilderoverst"><img src="bilder/Prove.JPG" alt="App"/> </div>
 
 <div id="tekst2"> <p> <b> How it works </b> <br>
 Our database is open for all retailers to register info and user manuals for their products. To further motivate for a easier life and cleaner environment we offer a kickback deal to the retailers who register products in our database.
-Each item in the store will be identified thru the bar code via our integrated bar code reader.</p>
+Each item in the store will be identified through the bar code via our integrated bar code reader.</p>
  <br>
 </div>
 <div id="tekst3"> <p> <b> Easy to use </b><br>
@@ -60,11 +57,23 @@ Each item in the store will be identified thru the bar code via our integrated b
 
 <table>
     <tr>
-        <th id="bildernederst1"><img src="bilder/ja.jpg" alt="mobilapp"/> </th>
-        <th id="bildernederst2"><img src="bilder/nei.jpg" alt="mobilapp"/> </th>
+        <th id="bildernederst1"><img src="bilder/ja.JPG" alt="mobilapp"/> </th>
+        <th id="bildernederst2"><img src="bilder/nei.JPG" alt="mobilapp"/> </th>
     </tr>
 </table>
 
+<div class="linje4"><p> <b>Kvitto's design <br> on a mobile device. </b></p> </div>
+<div class="holder">
+  <img class="mySlides" src="Phone/iphone4.png" alt="App1">
+  <img class="mySlides" src="Phone/iphone1.png" alt="App2">
+  <img class="mySlides" src="Phone/iphone2.png" alt="App3">
+  <img class="mySlides" src="Phone/iphone3.png" alt="App4">
+  <img class="mySlides" src="Phone/iphone5.png" alt="App5">
+  <img class="mySlides" src="Phone/iphone6.png" alt="App6">
+
+  <a class="venstre" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="hoyre" onclick="plusDivs(1)">&#10095;</a>
+</div>
 
 </div>	
 
@@ -88,7 +97,25 @@ Each item in the store will be identified thru the bar code via our integrated b
 	<p> Ida Riseng </p>
 </div>
 	</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1;}
+  if (n < 1) {slideIndex = x.length;}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
             
 	</body>
 </html>

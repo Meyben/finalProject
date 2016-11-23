@@ -27,6 +27,12 @@ body{
 	border: none;
 	color: white;
 	font-size: 30px;
+        height: 20vw;
+        width: 20vw;
+}
+#butt img{
+    height: 100%;
+    width: 100%;
 }
 .sidemeny {
     height: 100%;
@@ -50,8 +56,11 @@ body{
     transition: 0.3s;
 	display: none;
 }
-
-
+.hover {
+    display: block;
+    padding: 0vw 1vw 2vw 4vw;
+    margin-bottom: 3em;
+}
 .sidemeny a:hover, .offcanvas a:focus{
     color: grey;
 	display: none;
@@ -78,23 +87,6 @@ body{
 	background-color: #eaeaea;
 	overflow:hidden;
 }
-
-.hover {
-    display: block;
-    padding: 0vw 1vw 2vw 4vw;
-    margin-bottom: 3em;
-}
-
-li a {
-    color: #00cccc;
-    text-decoration: none;
-}
-
-li a:hover{
-    color: #008080;
-}
-
-
 #logo{
 	margin: 6vw 0vw 3vw 4vw;
 }
@@ -112,10 +104,6 @@ li a:hover{
 	text-decoration: none;
 	list-style-type: none;
 	margin-top: 5em;
-}
-.tekst{
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
 }
 #indrelitenboks1{
 	width: 20%;
@@ -191,7 +179,6 @@ li a:hover{
 
 #issues{
 	position: absolute;
-        width: 30vw;
 	padding: 2%;
 	right: 0;
 	top:0;
@@ -215,12 +202,54 @@ outline: none;
 	margin:0;
 	font-size: 2.5em;
 }
-footer {
-    background-color: grey;
-    background-position: center; 
-    height: 10vw;    
+/* FOOTER */
+#footer{
+	margin-left: 26%;
+	height: 12em;
+	background-color: grey; 
+	color: white;
+}
+#contact{
+	float: left;
+	margin-left: 10vw;
+}
+#linje3{
+	margin-top: 2vw;
+	background-color:white;
+	height: 8vw;
+	width: 1px;
+	margin-left: 5vw;
+	float: left;
+}
+#linje2{
+	margin-top: 2vw;
+	background-color:white;
+	height: 8vw;
+	width: 1px;
+	margin-left: 5vw;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: #bcd6ff;
+}
+#find{
+	float: left;
+	margin-left: 6vw;
+}
+#find img{
+	height: 5vw;
+}
+#iss{
+	color: white;
+	float: left;
+	margin-left: 8vw;
 }
 
+h2{
+	font-size: 1em;
+}
+/* FOOTER */
 
 /**********  Animated words on the top f the main page  **********/
 
@@ -386,7 +415,7 @@ animation-delay:12s;
 		text-align: center;
 		margin-right: 6vw;
 		padding-left: 3vw;
-		width: 45vw;
+		
 	}
 
 }
@@ -410,6 +439,7 @@ animation-delay:12s;
 	#knapp{
 		display: block;
 	}
+	
 	
 }
 @media(max-width: 550px){
@@ -435,6 +465,22 @@ animation-delay:12s;
 		padding: 0;
 	}
 }
+/*    Footer    */
+@media(max-width:1024px){
+	#find{margin-left:3vw;}
+	#footer{font-size: 1.9vw;
+			width:100%;
+			margin: 0;
+	}
+	#find{margin-left:6vw;
+			padding-left: 5%}
+	}
+
+@media(max-width:630px){
+	#footer{font-size: 2.4vw;}
+	#find{padding-left: 1%;}
+}
+/*    Footer    */
 @media(min-width:620px){
 	.animated-words{
 		padding:0 3.5em
@@ -455,6 +501,9 @@ animation-delay:12s;
 	#indrelitenboks3 img{
 		margin-top: -20%;
 	}
+	#vedsidenav{
+		filter: blur(5px);
+	}
 }
 
 @media(max-width: 1024px){
@@ -470,14 +519,13 @@ animation-delay:12s;
 	}
 	.animated-words{
 		background-color: #44474c;
-		background-image: url("logo.png");
+		background-image: url("litenlogo.png");
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 20% 70%;
+		background-size: 40% 80%;
 	}
 	.animated-words h2{
 		display:none;
 		padding: 0;
 	}
 }
-
