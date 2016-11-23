@@ -1,0 +1,105 @@
+	<!DOCTYPE html>
+	<html lang="EN">
+		<head>
+			<meta charset="UTF-8"><!-- <3  Maπe^x  <3 -->
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="icon" href="logo.png"><!-- You can't define justice. Justice ... just is! -->
+			<title>Kvitto</title>
+		</head>
+		<body>
+			<div id="sider" class="sidemeny">
+			  <a href="javascript:void(0)" class="lukk" onclick="closeNav()">&times;</a>
+			  <a href="theidea.html">Our idea</a>
+			  <a href="Something.html">About</a>
+			</div>
+                    <span id="knapp" style="font-size:30px;cursor:pointer"><button id="butt" onclick="openNav()"><img src="whitemenu.png" alt="&#9776;"/></button></span>
+			
+			<div id="sidemenu"> 
+				<div id="logo">
+					<img src="logo.png"  alt="Logo"/> 
+				</div>	
+				<div class="hover">
+					<a class="btn" href="theidea.html">Our idea</a>
+
+        		</div>
+        		<div class="hover">
+					<a class="btn" href="Something.html">About</a>
+
+				</div>
+			</div>
+
+			<div id="underbilde"> <img src="bilder/underbilde.jpg" alt=""/></div>
+			
+			<div id="hovedside">
+				<div class="animated-words">
+					<h2 class="the-word-save">Save</h2>
+					<div class="words-list">
+						<ul class="changing-words-list">
+							<!-- Changing words -->
+							<li class="word-0"><h2>your receipt</h2></li>
+							<li class="word-1"><h2>your warranties</h2></li>
+							<li class="word-2"><h2>the environment</h2></li>
+							<li class="word-3"><h2>your time</h2></li>
+							<li class="word-4"><h2>space</h2></li>
+						</ul>
+					</div>
+				</div> 	
+				<div id="boks1">
+					<a href="https://www.apple.com/no/"><div id="indrelitenboks1"> <img src="Apple.png" height="80" alt="Apple"/> </div></a>
+					<a href="https://www.microsoft.com/nb-no/store/apps"><div id="indrelitenboks2"> <img src="WindowsStore.png" height="80" alt="Windows"/> </div></a>
+					<a href="https://play.google.com/store"><div id="indrelitenboks3"> <img src="Android.png" height="80" alt="Android"/> </div> </a>			
+					<div id="nyboks">
+						<img id="vedsidenav" src="bilder/vedsidenavbilde.PNG" alt="MobilePhones">
+						<div id="issues">
+							<h4 class="contact"> Contact us </h4>
+							<p> Do you have issues or questions, please send us an email!</p>
+							<form action="mailto:ida@honningbier.no" method="post" enctype="text/plain" id="cont">
+								<label for="name">Name:<br></label>
+								<input type="text" name="name" id="name"><br><br>
+        						<label for="mail">E-mail:<br></label>
+								<input type="text" name="mail" id="mail"><br><br>
+        						<label for="comment">Comment:<br></label>
+        						<textarea cols="25" rows="5" name="comment" form="cont" id="comment"></textarea>
+								<br><br>
+								<input type="submit" value="Send">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div id="footer"> 
+					<div id="find"> 
+						<h2> Find us here: </h2> 
+						<a href="facebook.com"><img src="facebook.png" alt="Facebook"/></a>
+						<a href="twitter.com"><img src="twitter.png" alt="Twitter"/></a>
+					</div>
+					<div id="linje2"></div>
+
+					<div id="iss"> 
+						<h2><b> Expirience issues? <br>Contact us on : </b></h2>
+						<p>
+							<a href="mailto:ida@honningbier.no"><b>Support</b>
+							</a>
+						</p>
+					</div>
+					<div id="linje3"></div>
+					<div id="contact"> 
+						<h2> Made by: </h2>
+						<p> Fredrik Haraldseth </p>
+						<p> Julia Sofie Teppen </p>
+						<p> Ida Riseng </p>
+					</div>
+				</div>	
+			</footer>
+			<script>
+				function openNav() {
+					document.getElementById("sider").style.width = "250px";
+				}
+				function closeNav() {
+					document.getElementById("sider").style.width = "0";
+				}
+			</script>
+		</body>
+	</html>
