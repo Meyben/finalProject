@@ -227,7 +227,7 @@ ul.topnav li a:hover {background-color: #555;}
 }
 #footer{
 	width: 100%;
-	height: 10em;
+	float: left;
 	background-color: grey;
 	margin-top: 2vw;
 	color: white;
@@ -290,7 +290,7 @@ h2{
 	
 @media(max-width: 700px){
 #find{
-	margin-left: 5vw;
+	margin-left: 7vw;
 	font-size: 14px;
 }
 #iss{
@@ -298,7 +298,7 @@ h2{
 	font-size: 13px;
 }
 #contact{
-	margin-left: 1vw;
+	margin-left: 6vw;
 	font-size: 14px;
 }
 
@@ -336,11 +336,26 @@ h2{
     }
 }
 
+
+@media(max-width:1024px){	
+	#footer{font-size: 1.9vw;
+		/*height:20vw;*/
+	}
+	#find{margin-left:6vw;
+			padding-left: 10%}
+	}
+
+@media(max-width:680px){#footer{/*height:22vw;*/ }}
+
 @media(max-width:630px){
-	#footer{height:15vh;}
-	#find{padding-left: 5%;}
-        #find, #iss, #contact{
-            font-size: 9px;
+	#footer{font-size: 2.2vw;
+			/*height: 24em;*/}
+	
+    #find, #iss, #contact{
+            font-size: ;
         }
-        #contact{padding-left:3vw;}
+	 /*#contact{padding-left:3vw;
+   }*/
 }
+@media(max-width:550px){#find{padding-left: 5%;}}
+@media(max-width:430px){#find{padding-left: 0%;}}
