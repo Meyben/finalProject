@@ -126,7 +126,6 @@ ul.topnav li a:hover {background-color: #555;}
   ul.topnav.responsive {position: relative;}
 #header ul li {
   float: none;
-  width: default;
 }
 
   ul.topnav.responsive li {
@@ -148,7 +147,7 @@ ul.topnav li a:hover {background-color: #555;}
 	text-align: center;
 	width: 37vw;
 }
-#tekst2{
+.tekst2{
 	float: left;
 	color: white;
 	margin-top: 4vw;
@@ -163,7 +162,7 @@ ul.topnav li a:hover {background-color: #555;}
 	height: 20em;
 	margin-top: 16vw;
 }
-#linje{
+.linje{
 	background-color:white;
 	height: 1px;
 	width: 37vw;
@@ -255,7 +254,7 @@ h2{
 	margin-left: 1vw;
 	width: 50%;
 }
-#tekst2{
+.tekst2{
 	margin-left: 23vw;
 	width: 50%;
 }
@@ -311,7 +310,7 @@ h2{
 	margin-left: 1vw;
 	width: 80%;
 }
-#tekst2{
+.tekst2{
 	margin-left: 7vw;
 	width: 80%;
 }
@@ -326,7 +325,7 @@ h2{
 }
 
 
-#linje{
+.linje{
 	display: none;
 }
 
