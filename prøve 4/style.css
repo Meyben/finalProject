@@ -213,12 +213,56 @@ outline: none;
 	margin:0;
 	font-size: 2.5em;
 }
-footer {
-    background-color: grey;
-    background-position: center; 
-    height: 10vw;    
+/* FOOTER */
+#footer{
+	margin-left: 26%; /* Here */
+	width: %;
+	height: 12em;
+	background-color: grey;
+	margin-top: 2vw;
+	color: white;
+}
+#contact{
+	float: left;
+	margin-left: 10vw;
+}
+#linje3{
+	margin-top: 2vw;
+	background-color:white;
+	height: 8vw;
+	width: 1px;
+	margin-left: 5vw;
+	float: left;
+}
+#linje2{
+	margin-top: 2vw;
+	background-color:white;
+	height: 8vw;
+	width: 1px;
+	margin-left: 5vw;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: #bcd6ff;
+}
+#find{
+	float: left;
+	margin-left: 6vw;
+}
+#find img{
+	height: 5vw;
+}
+#iss{
+	color: white;
+	float: left;
+	margin-left: 8vw;
 }
 
+h2{
+	font-size: 1em;
+}
+/* FOOTER */
 
 /**********  Animated words on the top f the main page  **********/
 
@@ -434,6 +478,22 @@ animation-delay:12s;
 		padding: 0;
 	}
 }
+/*    Footer    */
+@media(max-width:1024px){
+	#find{margin-left:3vw;}
+	#footer{font-size: 1.9vw;
+			width:100%;
+			margin: 0;
+	}
+	#find{margin-left:6vw;
+			padding-left: 5%}
+	}
+
+@media(max-width:630px){
+	#footer{font-size: 2.4vw;}
+	#find{padding-left: 1%;}
+}
+/*    Footer    */
 @media(min-width:620px){
 	.animated-words{
 		padding:0 3.5em
