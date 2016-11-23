@@ -62,6 +62,38 @@ Each item in the store will be identified thru the bar code via our integrated b
     </tr>
 </table>
 
+<div class="linje4"><p> <b>Kvitto's design.</p> <p> on a mobile device </b></p> </div>
+<div class="holder">
+  <img class="mySlides" src="Phone/iphone1.png">
+  <img class="mySlides" src="Phone/iphone2.png">
+  <img class="mySlides" src="Phone/iphone3.png">
+  <img class="mySlides" src="Phone/iphone4.png">
+
+  <a class="venstre" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="hoyre" onclick="plusDivs(1)">&#10095;</a>
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
 
 </div>	
 
