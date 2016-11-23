@@ -1,6 +1,7 @@
 body{
 	margin: 0em;
 	font-family: sans-serif;
+        overflow-x: hidden;
 }
 #hovedside{
 	margin-left: 26%;	
@@ -26,6 +27,12 @@ body{
 	border: none;
 	color: white;
 	font-size: 30px;
+        height: 20vw;
+        width: 20vw;
+}
+#butt img{
+    height: 100%;
+    width: 100%;
 }
 .sidemeny {
     height: 100%;
@@ -49,8 +56,11 @@ body{
     transition: 0.3s;
 	display: none;
 }
-
-
+.hover {
+    display: block;
+    padding: 0vw 1vw 2vw 4vw;
+    margin-bottom: 3em;
+}
 .sidemeny a:hover, .offcanvas a:focus{
     color: grey;
 	display: none;
@@ -77,23 +87,6 @@ body{
 	background-color: #eaeaea;
 	overflow:hidden;
 }
-
-.hover {
-    display: block;
-    padding: 0vw 1vw 2vw 4vw;
-    margin-bottom: 3em;
-}
-
-li a {
-    color: #00cccc;
-    text-decoration: none;
-}
-
-li a:hover{
-    color: #008080;
-}
-
-
 #logo{
 	margin: 6vw 0vw 3vw 4vw;
 }
@@ -111,10 +104,6 @@ li a:hover{
 	text-decoration: none;
 	list-style-type: none;
 	margin-top: 5em;
-}
-.tekst{
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
 }
 #indrelitenboks1{
 	width: 20%;
@@ -488,7 +477,7 @@ animation-delay:12s;
 	}
 
 @media(max-width:630px){
-#footer{font-size: 2.4vw;}
+	#footer{font-size: 2.4vw;}
 	#find{padding-left: 1%;}
 }
 /*    Footer    */
@@ -540,4 +529,3 @@ animation-delay:12s;
 		padding: 0;
 	}
 }
-
