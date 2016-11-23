@@ -215,11 +215,9 @@ outline: none;
 }
 /* FOOTER */
 #footer{
-	margin-left: 26%; /* Here */
-	width: %;
+	margin-left: 26%;
 	height: 12em;
-	background-color: grey;
-	margin-top: 2vw;
+	background-color: grey; 
 	color: white;
 }
 #contact{
