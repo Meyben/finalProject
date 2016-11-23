@@ -472,10 +472,10 @@ animation-delay:12s;
 	}
 	.animated-words{
 		background-color: #44474c;
-		background-image: url("logo.png");
+		background-image: url("litenlogo.png");
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 20% 70%;
+		background-size: 40% 80%;
 	}
 	.animated-words h2{
 		display:none;
