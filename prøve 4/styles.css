@@ -158,7 +158,6 @@ ul.topnav li a:hover {background-color: #555;}
   ul.topnav.responsive {position: relative;}
 #header ul li {
   float: none;
-  width: default;
 }
 
   ul.topnav.responsive li {
