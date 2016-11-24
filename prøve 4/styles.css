@@ -76,7 +76,9 @@ h2{
 #header ul li:nth-of-type(3) {
   margin-left: 350px;
 }
-
+#designtekst{
+	font-size: 1.5em;
+}
 #header ul li a {
   text-transform: uppercase;
   text-decoration: none;
@@ -100,26 +102,6 @@ h2{
     margin-top:10vw;
 }
 
-@media screen and (max-width: 800px) {
-  .logo {
-      left: 60%;
-    bottom: 100%;
-  }
-#header{
-	  margin: 150px 5% 0;
-          padding-left: 7%;
-}
-  #header ul li:nth-of-type(3) {
-    margin-left: 0;
-  }
-  
-  #header ul {
-    width: auto;
-    position: relative;
-	
-  }
-}
- 
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -144,40 +126,6 @@ ul.topnav li a:hover {background-color: #555;}
 
 .icon {display: none;}
 
-@media screen and (max-width:600px) {
-  ul.topnav li:not(:first-child) {display: none;}
-  .icon {
-    float: right;
-    display: inline-block;
-    color: #f2f2f2;
-    text-decoration: none;
-    padding: 0 16px;
-    height: 15vw;
-    width: 15vw;
-  }
-  .icon img{
-      height: 100%;
-      width: 100%;
-  }
-}
-
-@media screen and (max-width:600px) {
-  ul.topnav.responsive {position: relative;}
-#header ul li {
-  float: none;
-}
-
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-    background-color:  #303236;
-    margin-left: 10%;
-  }
-} 
 .linje4{
 	margin-top: 16vw;
 	height: 10vw;
@@ -187,7 +135,6 @@ ul.topnav li a:hover {background-color: #555;}
 	color: white;
 	text-align: center;
 }
-
 #tekst {
 	color: white; 
 	font-size: 25px;
@@ -329,6 +276,59 @@ table{
         border: none;
 }
 }
+@media screen and (max-width: 800px) {
+  .logo {
+      left: 60%;
+    bottom: 100%;
+  }
+#header{
+	  margin: 150px 5% 0;
+          padding-left: 7%;
+}
+  #header ul li:nth-of-type(3) {
+    margin-left: 0;
+  }
+  
+  #header ul {
+    width: auto;
+    position: relative;
+	
+  }
+}
+@media screen and (max-width:600px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  .icon {
+    float: right;
+    display: inline-block;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 0 16px;
+    height: 15vw;
+    width: 15vw;
+  }
+  .icon img{
+      height: 100%;
+      width: 100%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  ul.topnav.responsive {position: relative;}
+#header ul li {
+  float: none;
+}
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    background-color:  #303236;
+    margin-left: 10%;
+  }
+}  
 @media(max-width: 700px){
 #find{
 	margin-left: 3vw;
@@ -349,25 +349,26 @@ table{
 	margin-left: 23vw;
 }
 }
-@media(max-width:1024px){	
-	#footer{font-size: 1.9vw;
-		/*height:20vw;*/
+@media(max-width: 1024px){
+    #boks21{
+        margin-top: 0;
+    }
+        #footer{font-size: 1.9vw;}
+	#find{
+            margin-left:10vw;
+            padding-left: 10%}
 	}
-	#find{margin-left:6vw;
-			padding-left: 10%}
-	}
-
-@media(max-width:680px){#footer{/*height:22vw;*/ }}
 
 @media(max-width:630px){
-	#footer{font-size: 2.2vw;
-			/*height: 24em;*/}
 	
-    #find, #iss, #contact{
-            font-size: ;
+	#find{padding-left: 10%;}
+        #find, #iss, #contact{
+            font-size: 9px;
         }
-	 /*#contact{padding-left:3vw;
-   }*/
+    }
+
+@media(max-width: 550px){
+    .linje4{
+        margin-top: 5vw;
+    }
 }
-@media(max-width:550px){#find{padding-left: 5%;}}
-@media(max-width:430px){#find{padding-left: 0%;}}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="EN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" href="overbilde.png">
+		<title> About </title>
+		
+		<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+	</head>
+	<body>
+	
+<div id="header">
+  <a class="logo" href="index.html"><img src="logo.png" width="100" alt="Logo" /></a>
+  <a class="icon" href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"><img src="whitemenu.png" alt="☰"/></a>
+  <ul class="topnav" id="myTopnav">
+
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="theidea.html">Our idea </a></li>
+    <li><div id="erher"><a href="About.html">About</a></div></li>
+    <li><a href="http://www.apple.com/no/itunes/">Download</a></li>
+</ul>
+
+
+
+</div>
+<div id="boksen">
+
+
+<div id="tekst"> <p> <b> The app </b><br>
+Not only is it easy to look up the receipt when you need to, but you will find all the user manuals and other relevant info when you click the product.
+You can now organize everything you need to know about your stuff, at the same time as you are saving the environment. <br>
+</div>
+
+
+<div class="bilderoverst"><img src="bilder/sidebilde.PNG" alt="App"/> </div>
+<div class="bilderoverst"><img src="bilder/Prove.JPG" alt="App"/> </div>
+
+<div id="tekst2"> <p> <b> How it works </b> <br>
+Our database is open for all retailers to register info and user manuals for their products. To further motivate for a easier life and cleaner environment we offer a kickback deal to the retailers who register products in our database.
+Each item in the store will be identified through the bar code via our integrated bar code reader.</p>
+ <br>
+</div>
+<div id="tekst3"> <p> <b> Easy to use </b><br>
+        The app will save you a lot of free space. Our average consumer stores approximately 1kg of receipts printed on paper each year. Now you get the opportunity to have all possible information just three clicks away.<br> <br><b>Save time. Save money. Save the environment.</b> <br>
+</div>
+
+<table>
+    <tr>
+        <th id="bildernederst1"><img src="bilder/ja.JPG" alt="mobilapp"/> </th>
+        <th id="bildernederst2"><img src="bilder/nei.JPG" alt="mobilapp"/> </th>
+    </tr>
+</table>
+
+<div class="linje4"><p id="designtekst"> <b>Kvitto's design <br> on a mobile device. </b></p> </div>
+<div class="holder">
+  <img class="mySlides" src="Phone/iphone4.png" alt="App1">
+  <img class="mySlides" src="Phone/iphone1.png" alt="App2">
+  <img class="mySlides" src="Phone/iphone2.png" alt="App3">
+  <img class="mySlides" src="Phone/iphone3.png" alt="App4">
+  <img class="mySlides" src="Phone/iphone5.png" alt="App5">
+  <img class="mySlides" src="Phone/iphone6.png" alt="App6">
+
+  <a class="venstre" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="hoyre" onclick="plusDivs(1)">&#10095;</a>
+</div>
+
+</div>	
+
+<div id="footer"> 
+	<div id="find"> 
+		<h2> Find us here: </h2> 
+			<a href="facebook.com"><img src="facebook.png" alt="Facebook"/></a>
+			<a href="twitter.com"><img src="twitter.png" alt="Twitter"/></a>
+</div>
+<div id="linje2"> </div>
+
+<div id="iss"> 
+	<h2><b> Expirience issues? <br>Contact us on : </b></h2>
+	<p> <a href="mailto:ida@honningbier.no"><b>Support</b></a></p>
+</div>
+<div id="linje3"> </div>
+<div id="contact"> 
+	<h2> Made by: </h2>
+	<p> Fredrik Haraldseth </p>
+	<p> Julia Sofie Teppen </p>
+	<p> Ida Riseng </p>
+</div>
+	</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1;}
+  if (n < 1) {slideIndex = x.length;}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+            
+	</body>
+</html>
